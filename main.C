@@ -4,9 +4,35 @@ void salutation ()
 {
   printf("hello\n"); 
 }
+int greater(int x, int y)
+{
+  if (x > y)
+  {
+    return 1;
+  }
+  else 
+  {
+    return 0; 
+  }
+}
 int main ()
 {
-salutation();	
-return 0;
+salutation();
+int num1 = 4;
+int num2 = 5;
+int age, limiteage;
+
+age = 16;
+limiteage = 18;
+printf("%d\n", num1);
+printf("%d\n", num2);
+int resultat = 0;
+printf ("%d\n", resultat);
+resultat = greater(num1, num2); 
+printf ("resultat = %i / greater = %d", greater(4,5));
+	
+  return 0;
 
 }
+
+// %d or %i is used for  display integer varaible 
