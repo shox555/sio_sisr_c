@@ -28,7 +28,9 @@ printf("%d\n", num1);
 printf("%d\n", num2);
 int resultat = 0;
 printf ("%d\n", resultat);
+resultat =greater(num1, num2);
 resultat =smaller(num1, num2); 
+printf ("resultat = %i /greater =%d", greater(4,5))
 printf ("resultat = %i / smaller = %d", smaller(4,5));
 	
   return 0;
